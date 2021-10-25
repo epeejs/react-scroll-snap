@@ -10,7 +10,7 @@
     "strict": true,
     "allowSyntheticDefaultImports": true,
     "declaration": true,
-    "jsx": "react-jsx"
+    "jsx": "preserve"
   },
   "exclude": [
     "node_modules",
