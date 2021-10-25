@@ -2,6 +2,10 @@
 
 一个基于 React 的滚动快照组件
 
+## DEMO
+
+[![Edit react-scroll-snap](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-scroll-snap-2qd0x?fontsize=14&hidenavigation=1&theme=dark)
+
 ## 安装
 
 ```sh
@@ -30,6 +34,7 @@ const Demo = () => {
     <ScrollSnap
       actionRef={actionRef}
       onChange={(current) => {
+        // 当前滚动到的index
         console.log(current);
       }}
     >
