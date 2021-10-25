@@ -1,0 +1,55 @@
+{
+  "name": "@epeejs/react-scroll-snap",
+  "description": "",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "father-build",
+    "release": "npm run build && npm publish",
+    "test": "umi-test",
+    "test:coverage": "umi-test --coverage",
+    "prepare": "husky install"
+  },
+  "main": "es/index.js",
+  "module": "es/index.js",
+  "typings": "es/index.d.ts",
+  "homepage": "https://github.com/epeejs/react-scroll-snap",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/epeejs/react-scroll-snap"
+  },
+  "license": "MIT",
+  "files": [
+    "es",
+    "README.md"
+  ],
+  "keywords": [
+    "scroll-snap",
+    "react-scroll-snap",
+    "react"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "@types/react": "^17.0.32",
+    "@umijs/fabric": "^2.6.7",
+    "@umijs/test": "^3.5.18",
+    "father-build": "^1.20.0",
+    "husky": ">=6",
+    "lint-staged": ">=10",
+    "prettier": "^2.4.0",
+    "react": "^17.0.2"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx}": "eslint --fix",
+    "*.{json,ts,tsx,js,jsx,md,scss,less,css,html}": "prettier --write"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.176",
+    "classnames": "^2.3.1",
+    "lodash": "^4.17.21"
+  }
+}
