@@ -13,7 +13,7 @@ export interface ScrollSnapProps {
   actionRef?: React.MutableRefObject<ScrollSnapAction | undefined>;
 }
 
-const IncScrollSnap: React.FC<ScrollSnapProps> = ({
+const ScrollSnap: React.FC<ScrollSnapProps> = ({
   className,
   style,
   onChange,
@@ -77,4 +77,4 @@ const IncScrollSnap: React.FC<ScrollSnapProps> = ({
   );
 };
 
-export default IncScrollSnap;
+export default ScrollSnap;
