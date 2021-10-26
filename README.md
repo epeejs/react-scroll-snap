@@ -15,11 +15,10 @@ yarn add @epeejs/react-scroll-snap
 ## 用法
 
 ```tsx
-import type { ScrollSnapAction } from '@epeejs/react-scroll-snap';
-import { ScrollSnap } from '@epeejs/react-scroll-snap';
-import { useEffect, useRef } from 'react';
+import ScrollSnap, { ScrollSnapAction } from '@epeejs/react-scroll-snap';
+import React, { useEffect, useRef } from 'react';
 
-const Demo = () => {
+const App = () => {
   const actionRef = useRef<ScrollSnapAction>();
   const colors = ['#E6F7FF', '#BAE7FF', '#91D5FF', '#69C0FF'];
 
@@ -34,7 +33,6 @@ const Demo = () => {
     <ScrollSnap
       actionRef={actionRef}
       onChange={(current) => {
-        // 当前滚动到的index
         console.log(current);
       }}
     >
