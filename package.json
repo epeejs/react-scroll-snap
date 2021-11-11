@@ -21,6 +21,10 @@
     "es",
     "README.md"
   ],
+  "sideEffects": [
+    "**/*.css",
+    "**/*.less"
+  ],
   "keywords": [
     "scroll-snap",
     "react-scroll-snap",
