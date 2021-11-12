@@ -55,3 +55,18 @@ const App = () => {
   );
 };
 ```
+
+## API
+
+| 属性      | 说明             | 类型                     | 默认值 | 版本 |
+| :-------- | :--------------- | :----------------------- | :----- | :--- |
+| onChange  | 切换面板后的回调 | function(current:number) |
+| actionRef | 操作函数         | `ScrollSnapAction`       |
+
+## 方法
+
+### ScrollSnapAction
+
+| 名称        | 描述           |
+| :---------- | :------------- |
+| goTo(index) | 切换到指定面板 |
