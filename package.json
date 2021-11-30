@@ -1,7 +1,7 @@
 {
   "name": "@epeejs/react-scroll-snap",
   "description": "A Scroll Snap component for React",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "build": "father-build",
     "release": "npm run build && npm publish",
