@@ -1,5 +1,5 @@
 import classNames from 'classnames';
-import { debounce } from 'lodash';
+import debounce from 'lodash/debounce';
 import React, { useEffect, useMemo, useRef } from 'react';
 import './index.less';
 
